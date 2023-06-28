@@ -58,7 +58,7 @@ public class TesteBancoJdbc {
 		
 		try {
 			//passando o objeto das colunas
-			Userposjava6 userposjava6 = dao.buscar(3L);
+			Userposjava6 userposjava6 = dao.buscar(4L);
 			
 			//imprimindo o objeto
 			System.out.println(userposjava6);

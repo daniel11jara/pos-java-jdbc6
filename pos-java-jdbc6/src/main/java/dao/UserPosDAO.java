@@ -91,7 +91,7 @@ public class UserPosDAO {
 			Userposjava6 retorno = new Userposjava6();
 			
 			//passando o comando sql que seleciona apenas o id
-			String sql = "select * from userposjava6 where id " + id;
+			String sql = "select * from userposjava6 where id = " + id;
 			
 			//classe preparando o sql
 			PreparedStatement statement = connection.prepareStatement(sql);
